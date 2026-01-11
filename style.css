@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html, body {
     font-family: 'Segoe UI', Tahoma, sans-serif;
     background-color: #fafafa;
@@ -8,7 +14,7 @@ html, body {
 
 main {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 40px auto;
 }
 
 h1 {
@@ -34,7 +40,7 @@ section {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.116))
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1))
 }
 
 section > h2 {
@@ -50,5 +56,33 @@ footer {
     color: #ccc;
     text-align: center;
     padding: 15px;
-    font-size: 10px;
+    font-size: 12px;
+}
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 20px 0;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    main {
+        margin: 20px auto;
+        padding: 0 10px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    footer {
+        font-size: 11px;
+    }
 }

@@ -10,4 +10,5 @@ Projeto desenvolvido durante meus estudos de HTML e CSS.
 Consolidar a base de estrutura, semântica e estilização básica.
 
 ## 📷 Preview
-<img width="1918" height="545" alt="image" src="https://github.com/user-attachments/assets/ed08716b-a9c2-4c8b-a0fd-42402f3265ee" />
+<img width="1910" height="627" alt="image" src="https://github.com/user-attachments/assets/b36a771d-c812-4282-803d-503bd4750e05" />
+
